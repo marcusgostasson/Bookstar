@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cart</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="head-container">
+    <!-- HEADER -->
+    <header id="header">
+      <a href="index.html">
+        <h1>BookStar</h1>
+      </a>
+
+      <!-- Navbar -->
+      <nav id="nav">
+        <a href="index.html">Hem</a>
+        <a href="categories"> Kategorier</a>
+        <a href="cart.html">Varukorg</a>
+      </nav>
+    </header>
+
+    <!-- MAIN -->
+    <section id="main-container-cart">
+      <h2>Detta är en statisk representation av din varukorg</h2>
+      <!-- Books -->
+      <div id="section-cart">
+        <article class="book">
+          <img src="Bilder/Exempelbild.jpg" alt="Exempelbild för bok" class="picture">
+          <h3 class="title">Där havet glittrar</h3>
+          <p class="author">av Louise Strömberg</p>
+          <p class="price"><mark>235 kr</mark></p>
+        </article>
+
+        <article class="book">
+          <img src="Bilder/Exempelbild.jpg" alt="Exempelbild för bok" class="picture">
+          <h3 class="title">SIGNERAD - Följeslagaren</h3>
+          <p class="author">Av: Sofie Sarenbrant</p>
+          <p class="price"><mark>239 kr</mark></p>
+        </article>
+      </div>
+
+      <!-- Removebuttons -->
+      <aside id="aside-cart">
+        <article>
+          <h3>Antal: 1</h3>
+          <button class="remove-button">
+            <svg xmlns="http://www.w3.org/2000/svg" height="14" width="12.25" viewBox="0 0 448 512">
+              <!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+              <path fill="#ffffff"
+                d="M135.2 17.7L128 32 32 32C14.3 32 0 46.3 0 64S14.3 96 32 96l384 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-96 0-7.2-14.3C307.4 6.8 296.3 0 284.2 0L163.8 0c-12.1 0-23.2 6.8-28.6 17.7zM416 128L32 128 53.2 467c1.6 25.3 22.6 45 47.9 45l245.8 0c25.3 0 46.3-19.7 47.9-45L416 128z" />
+            </svg>
+          </button>
+        </article>
+
+        <article>
+          <h3>Antal: 1</h3>
+          <button class="remove-button">
+            <svg xmlns="http://www.w3.org/2000/svg" height="14" width="12.25" viewBox="0 0 448 512">
+              <!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+              <path fill="#ffffff"
+                d="M135.2 17.7L128 32 32 32C14.3 32 0 46.3 0 64S14.3 96 32 96l384 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-96 0-7.2-14.3C307.4 6.8 296.3 0 284.2 0L163.8 0c-12.1 0-23.2 6.8-28.6 17.7zM416 128L32 128 53.2 467c1.6 25.3 22.6 45 47.9 45l245.8 0c25.3 0 46.3-19.7 47.9-45L416 128z" />
+            </svg>
+          </button>
+        </article>
+      </aside>
+
+      <!-- Totalprice -->
+      <p id="total-sum"><strong>Total summa:</strong> 474 kr</p>
+
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <h2 class="footer-text">Kontakta oss</h2>
+      <address class="address">
+        <p class="footer-text">Marcus Göstasson</p>
+        <a href="https://maps.app.goo.gl/Ws1eb5TAkgfXi9aE6">Tingsvägen 10</a>
+        <a href="mailto:m.gostasson@hotmail.com">Maila oss</a>
+        <a href="Tel:0720909026">Tel: 072-090 90 26</a>
+      </address>
+      <p class="copyright">copyright &#169; Marcus Göstasson 2025</p>
+    </footer>
+  </div>
+</body>
+
+</html>
